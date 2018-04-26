@@ -1,0 +1,51 @@
+    1  mkdir lab1
+    2  cd lab1
+    3  git init
+    4  vim lab1.txt
+    5  ls
+    6  vi lab1.txt
+    7  cat lab1.txt
+    8  git commit -m Initial commit
+    9  git add lab1.txt
+   10  git commit lab1.txt -m Initial commit
+   11  git lab1.txt commit -m Initial commit
+   12  git lab1.txt commit -m 'Initial commit'
+   13  git commit -m 'Initial commit'
+   14  vi lab1.txt
+   15  git commit -m 'Modify lab1.txt'
+   16  git remote add origin https://github.com/Markonovko/novrepo.git
+   17  git push -u origin master
+   18  vi lab1.txt
+   19  git add lab1.txt
+   20  git commit -m 'Modify lab1.txt'
+   21  git push -u origin master
+   22  vi lab1.txt
+   23  git checkout -- lab1.txt
+   24  cat lab1.txt
+   25  git branch logging
+   26  git checkout -b logging
+   27  git checkout logging
+   28  git branch
+   29  git log >> log.txt
+   30  git push origin logging
+   31  git log
+   32  cat log.txt
+   33  git checkout master
+   34  git branch
+   35  git merge logging
+   36  git push origin master
+   37  git checkout logging
+   38  git add log.txt
+   39  git commit
+   40  git commit -m "logging branch commit"
+   41  git push -u origin logging
+   42  git checkout master
+   43  git checkout logging
+   44  git merge master
+   45  git checkout master
+   46  git merge logging
+   47  git branch allcommands
+   48  git branch
+   49  git commit allcommands
+   50  git checkout allcommands
+   51  history >> commands.txt
