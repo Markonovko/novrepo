@@ -1,0 +1,11 @@
+commit 42ded5922fd92592d01da92dbed9748266c87041
+Author: novkovikj.marko@students.finki.ukim.mk <novkovikj.marko@students.finki.ukim.mk>
+Date:   Thu Apr 26 17:27:47 2018 +0200
+
+    Modify lab1.txt
+
+commit d884c25976e6e17805d0201ef0060f759f0e027f
+Author: novkovikj.marko@students.finki.ukim.mk <novkovikj.marko@students.finki.ukim.mk>
+Date:   Thu Apr 26 17:19:38 2018 +0200
+
+    Initial commit
